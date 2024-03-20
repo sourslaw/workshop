@@ -1,0 +1,101 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://sourslaw.github.io/workshop/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Shibuya Scramble, old cookies",
+  "metadata" : [ {
+    "label" : "Parent Collection Name",
+    "value" : "Titulos Primordiales de Hacienda de San Estevan Tiripitio, 1562-1786 (jfb-MB8594)"
+  }, {
+    "label" : "Additional Notes",
+    "value" : "This collection is organized and subsequently digitized in series reflecting a table of contents bound with the collection. The Table of contents has also been digitized and is available on this site: Titulos Primordiales de Hacienda de San Estevan Tiripitio, 1562-1786, Table of Contents. This particular document is from Series I[Y]: Amparo de Posecion del Ranch Uamado Sr Pedro en Jurisdiccion de Ario año de 1737."
+  }, {
+    "label" : "Barcode Identifier",
+    "value" : "UMN_BARCODE:31951SA0111299W; UMN_BARCODE:31951SM0174282Y"
+  }, {
+    "label" : "Contact Information",
+    "value" : "University of Minnesota Libraries, James Ford Bell Library. 15 Elmer L. Andersen Library, 222 - 21st Avenue South, Minneapolis, MN 55455; https://www.lib.umn.edu/bell"
+  }, {
+    "label" : "Continent",
+    "value" : "North America"
+  } ],
+  "description" : [ {
+    "@value" : "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. ",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "Use of this item may be governed by US and international copyright laws. You may be able to use this item, but copyright and other considerations may apply. For possible additional information or guidance on your use, please contact the contributing organization.",
+  "sequences" : [ {
+    "@id" : "http://addd99de-7ee4-429b-9705-ac45c2661123",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://ceb3ab13-47ec-423a-a4fb-62624f8a27f1",
+      "@type" : "sc:Canvas",
+      "label" : "shibuya scramble, recent",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://88b212b1-932d-44d2-88b3-cd58ee23c4bd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-3877_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-3877_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://ceb3ab13-47ec-423a-a4fb-62624f8a27f1"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://d96745bb-6329-4395-8354-7b8095463bad",
+      "@type" : "sc:Canvas",
+      "label" : "dated cookie",
+      "height" : 1391,
+      "width" : 2086,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6c3b15af-074d-497b-802f-4edf2a23a349",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-3338_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-3338_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1391,
+          "width" : 2086
+        },
+        "on" : "http://d96745bb-6329-4395-8354-7b8095463bad"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://ceb3ab13-47ec-423a-a4fb-62624f8a27f1" ]
+  } ]
+}
