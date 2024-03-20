@@ -1,0 +1,13 @@
+{
+  "id" : "https://sourslaw.github.io/workshop/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in sourslaw/workshop project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://sourslaw.github.io/workshop/manifests/manifest2.json",
+    "label" : "Shibuya Scramble, old cookies"
+  } ]
+}
